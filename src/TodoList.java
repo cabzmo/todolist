@@ -2,11 +2,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TodoList {
+	ArrayList<TodoListItem> list = new ArrayList<>();
     /*
      * Add a new item to the list, given a description and priority.
      */
     public void addItem(String description, int priority) {
-        // TODO
+    	TodoListItem item = new TodoListItem("Bake a cake", 2);
+    	list.add(item);
     }
     
     /*
